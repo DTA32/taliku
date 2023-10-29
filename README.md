@@ -1,0 +1,3 @@
+# Taliku
+
+Personal project (WIP)

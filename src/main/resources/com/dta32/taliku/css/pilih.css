@@ -1,0 +1,22 @@
+#menu{
+    -fx-background-image: url("../images/pilih.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+#tambah{
+    -fx-background-color: #00ff52;
+}
+
+#kali{
+    -fx-background-color: #848484;
+}
+
+#kurang{
+    -fx-background-color: #0042ff;
+}
+
+#kembali{
+    -fx-background-color: #00ff52;
+}
