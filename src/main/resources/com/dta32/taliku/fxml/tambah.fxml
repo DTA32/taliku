@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="backdrop" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/tambah.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="70.0" prefWidth="642.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox id="jawabanContainer" alignment="CENTER" prefHeight="16.0" prefWidth="400.0" spacing="8.0">
+               <children>
+                  <TextArea id="jawabanField" prefHeight="7.0" prefWidth="316.0" />
+                  <Button alignment="CENTER" mnemonicParsing="false" text="√" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="6.0" left="100.0" right="100.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="8.0" top="8.0" />
+               </padding></HBox>
+         </children>
+      </VBox>
+   </bottom>
+   <left>
+      <ImageView fitHeight="240.0" fitWidth="240.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../images/tambahSprite.png" />
+         </image>
+      </ImageView>
+   </left>
+   <top>
+      <HBox prefHeight="143.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="117.0" prefWidth="108.0" spacing="4.0">
+                  <children>
+                     <HBox id="waktuContainer" alignment="CENTER_LEFT" prefHeight="24.0" prefWidth="108.0" spacing="8.0" style="-fx-background-color: #E6F0FF;">
+                        <children>
+                           <Label text="waktu">
+                              <padding>
+                                 <Insets left="8.0" right="8.0" />
+                              </padding>
+                           </Label>
+                           <Label id="waktuVar" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="45.0" style="-fx-background-color: #FF8C1A;" text="0" />
+                        </children>
+                     </HBox>
+                     <HBox id="salahContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="24.0" prefWidth="139.0" spacing="8.0">
+                        <children>
+                           <Label text="Salah">
+                              <padding>
+                                 <Insets left="8.0" right="8.0" />
+                              </padding>
+                           </Label>
+                           <Label id="salahVar" alignment="CENTER" prefWidth="45.0" text="0">
+                              <padding>
+                                 <Insets left="8.0" right="8.0" />
+                              </padding>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <HBox id="benarContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="30.0" prefHeight="24.0" prefWidth="139.0" spacing="8.0">
+                        <children>
+                           <Label text="Benar">
+                              <padding>
+                                 <Insets left="8.0" right="8.0" />
+                              </padding>
+                           </Label>
+                           <Label id="benarVar" alignment="CENTER" prefWidth="45.0" text="0" />
+                        </children>
+                     </HBox>
+                     <HBox id="soalContainer" alignment="CENTER_LEFT" layoutX="210.0" layoutY="10.0" prefHeight="24.0" prefWidth="4.0" spacing="8.0">
+                        <children>
+                           <Label text="soal">
+                              <padding>
+                                 <Insets left="8.0" right="8.0" />
+                              </padding>
+                           </Label>
+                           <Label id="soalVar" alignment="CENTER" prefWidth="45.0" text="0" />
+                        </children>
+                     </HBox>
+                  </children>
+               <HBox.margin>
+                  <Insets left="4.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets top="4.0" />
+               </padding></VBox>
+         </children></HBox>
+   </top>
+   <center>
+      <Label id="soalLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="46.0" prefWidth="143.0" text="Ayo Kita Mulai Belajar Pertambahan" wrapText="true" BorderPane.alignment="TOP_LEFT">
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="12.0" />
+         </padding></Label>
+   </center>
+</BorderPane>

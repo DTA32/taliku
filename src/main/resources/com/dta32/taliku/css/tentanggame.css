@@ -1,0 +1,10 @@
+#menu{
+    -fx-background-image: url("../images/tentanggame.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+#kembali{
+    -fx-background-color: #00ff52;
+}
