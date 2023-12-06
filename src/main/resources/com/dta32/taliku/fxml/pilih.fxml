@@ -10,17 +10,17 @@
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="40.0" BorderPane.alignment="TOP_CENTER">
          <children>
-            <Button id="tambah" alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="240.0" text="TAMBAH">
+            <Button id="tambah" alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="181.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button id="kali" alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0" text="KALI">
+            <Button id="kali" alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="220.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button id="kurang" alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0" text="KURANG">
+            <Button id="kurang" alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="212.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
@@ -32,9 +32,9 @@
       <Region prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
-      <Button id="kembali" mnemonicParsing="false" text="KEMBALI" BorderPane.alignment="BOTTOM_RIGHT">
+      <Button id="kembali" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" BorderPane.alignment="BOTTOM_RIGHT">
          <BorderPane.margin>
-            <Insets bottom="16.0" right="16.0" />
+            <Insets />
          </BorderPane.margin>
       </Button>
    </bottom>

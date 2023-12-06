@@ -6,17 +6,27 @@
 }
 
 #tambah{
-    -fx-background-color: #00ff52;
+    -fx-background-image: url("../images/btnTambah.png");
+    -fx-background-size: contain;
+    -fx-background-position: center;
 }
 
 #kali{
-    -fx-background-color: #848484;
+    -fx-background-image: url("../images/btnKali.png");
+    -fx-background-size: contain;
+    -fx-background-position: center;
 }
 
 #kurang{
-    -fx-background-color: #0042ff;
+    -fx-background-image: url("../images/btnKurang.png");
+    -fx-background-size: contain;
+    -fx-background-position: center;
 }
 
 #kembali{
-    -fx-background-color: #00ff52;
+    -fx-background-image: url("../images/btnKembali.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
 }

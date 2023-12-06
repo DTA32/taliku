@@ -9,9 +9,9 @@
       <Region prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
-      <Button id="kembali" mnemonicParsing="false" text="KEMBALI" BorderPane.alignment="BOTTOM_RIGHT">
+      <Button id="btnKembali" mnemonicParsing="false" prefHeight="80.0" prefWidth="160.0" BorderPane.alignment="BOTTOM_RIGHT">
          <BorderPane.margin>
-            <Insets bottom="16.0" right="16.0" />
+            <Insets />
          </BorderPane.margin>
       </Button>
    </bottom>

@@ -4,22 +4,22 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/mainmenu.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane id="menu" fx:id="mainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/mainmenu.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dta32.taliku.controller.MainMenu">
 
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="40.0" BorderPane.alignment="TOP_CENTER">
          <children>
-            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #ff9400;" text="MAIN">
+            <Button id="btnMain" fx:id="mainBtn" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#mainBtnClicked" prefHeight="60.0" prefWidth="150.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #ff00bd;" text="CARA MAIN">
+            <Button id="btnCaraMain" alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="300.0" style="-fx-background-color: #ffff00;" text="TENTANG GAME">
+            <Button id="btnTentang" alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="243.0">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>

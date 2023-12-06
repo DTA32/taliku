@@ -5,4 +5,5 @@ module com.dta32.taliku {
 
     opens com.dta32.taliku to javafx.fxml;
     exports com.dta32.taliku;
+    exports com.dta32.taliku.controller;
 }

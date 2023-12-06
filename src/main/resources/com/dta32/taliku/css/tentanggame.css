@@ -5,6 +5,10 @@
     -fx-background-position: center;
 }
 
-#kembali{
-    -fx-background-color: #00ff52;
+#btnKembali{
+    -fx-background-image: url("../images/btnKembali.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
 }
