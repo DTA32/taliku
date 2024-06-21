@@ -1,0 +1,41 @@
+.home {
+	background-image: url(/background/mainmenu.png);
+	height: 100%;
+	width: 100%;
+}
+
+.btnContainer {
+	padding-top: 17%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btnMain {
+	margin-right: 12px;
+	background-color: var(--orange);
+	width: 200px;
+	height: 80px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.btnCaraMain {
+	margin-top: 40px;
+	margin-right: 20px;
+	background-color: var(--pink);
+	width: 250px;
+	height: 80px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.btnTentang {
+	margin-left: 10px;
+	margin-top: 40px;
+	background-color: var(--yellow);
+	width: 280px;
+	height: 80px;
+	font-size: 32px;
+	font-weight: bold;
+}

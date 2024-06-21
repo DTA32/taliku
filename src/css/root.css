@@ -1,0 +1,15 @@
+:root {
+	--background: rgb(245, 245, 245);
+	--orange: #ff9500;
+	--pink: #ff00b7;
+	--yellow: #f2ff00;
+}
+
+button {
+	all: unset;
+	text-align: center;
+}
+
+body {
+	background-color: var(--background);
+}
