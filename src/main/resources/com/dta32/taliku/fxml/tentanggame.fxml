@@ -4,12 +4,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/tentanggame.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/tentanggame.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dta32.taliku.controller.TentangGame">
    <top>
       <Region prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
-      <Button id="btnKembali" mnemonicParsing="false" prefHeight="80.0" prefWidth="160.0" BorderPane.alignment="BOTTOM_RIGHT">
+      <Button id="btnKembali" mnemonicParsing="false" prefHeight="80.0" prefWidth="160.0" BorderPane.alignment="BOTTOM_RIGHT" onAction="#kembaliBtnClicked">
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>

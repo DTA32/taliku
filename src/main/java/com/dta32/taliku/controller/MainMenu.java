@@ -1,18 +1,35 @@
 package com.dta32.taliku.controller;
 
-import com.dta32.taliku.Main;
 import com.dta32.taliku.MainStage;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
+import javafx.event.ActionEvent;
+import javafx.scene.Parent;
 import javafx.scene.input.MouseEvent;
 
 import java.io.IOException;
 
 public class MainMenu {
-    public void mainBtnClicked(MouseEvent mouseEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("fxml/pilih.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 450);
-        MainStage.stage.setScene(scene);
+    private static MainMenu mainMenu;
+    private Parent parent;
+    public static MainMenu getInstance() { return mainMenu = mainMenu == null ? new MainMenu() : mainMenu; }
+    public MainMenu() {}
+    public void show(){
+        try{
+            MainStage mainStage = MainStage.getInstance();
+            parent = mainStage.replaceSceneContent("main-menu", parent);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public void mainBtnClicked(MouseEvent mouseEvent) {
+        Pilih pilih = Pilih.getInstance();
+        pilih.show();
+    }
+    public void btnCaraMainClicked(ActionEvent actionEvent) {
+        CaraMain caraMain = CaraMain.getInstance();
+        caraMain.show();
+    }
+    public void btnTentangClicked(ActionEvent actionEvent) {
+        TentangGame tentangGame = TentangGame.getInstance();
+        tentangGame.show();
     }
 }

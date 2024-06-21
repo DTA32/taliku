@@ -1,5 +1,6 @@
 package com.dta32.taliku;
 
+import com.dta32.taliku.controller.MainMenu;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,15 +11,15 @@ import java.io.IOException;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        MainStage.stage = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("fxml/main-menu.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 450);
-        MainStage.stage.setScene(scene);
-        MainStage.stage.setTitle("Taliku");
-        MainStage.stage.show();
+        MainStage mainStage = MainStage.getInstance();
+        mainStage.setStage(stage);
+        MainMenu mainMenu = MainMenu.getInstance();
+        mainMenu.show();
+        stage.setTitle("Taliku");
+        stage.show();
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }

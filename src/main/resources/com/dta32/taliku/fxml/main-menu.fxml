@@ -14,12 +14,12 @@
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button id="btnCaraMain" alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0">
+            <Button id="btnCaraMain" alignment="CENTER" layoutX="220.0" layoutY="221.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="240.0" onAction="#btnCaraMainClicked">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
             </Button>
-            <Button id="btnTentang" alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="243.0">
+            <Button id="btnTentang" alignment="CENTER" layoutX="220.0" layoutY="266.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="243.0" onAction="#btnTentangClicked">
                <font>
                   <Font name="Times New Roman" size="30.0" />
                </font>
