@@ -1,13 +1,20 @@
+import { Link } from "react-router-dom";
 import "../css/mainmenu.css";
 
 export default function MainMenu() {
 	return (
-		<div className="home">
-			<div className="btnContainer">
-				<button className="btnMain">MAIN</button>
-				<button className="btnCaraMain">CARA MAIN</button>
-				<button className="btnTentang">Tentang Game</button>
+		<section className="home">
+			<div className="menuBtnContainer">
+				<Link to="/pilih" className="btnMain">
+					MAIN
+				</Link>
+				<Link to="/caramain" className="btnCaraMain">
+					CARA MAIN
+				</Link>
+				<Link to="/tentang" className="btnTentang">
+					Tentang Game
+				</Link>
 			</div>
-		</div>
+		</section>
 	);
 }

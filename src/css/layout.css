@@ -14,6 +14,20 @@
 	margin: 24px 0;
 }
 
+.titleLink {
+	text-decoration: none;
+	color: black;
+}
+
 .description {
 	margin: 16px 0;
+}
+
+/* below belongs to game container */
+.btnKembali {
+	height: 80px;
+}
+.kembaliContainer {
+	display: flex;
+	justify-content: flex-end;
 }

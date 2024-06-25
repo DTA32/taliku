@@ -1,0 +1,82 @@
+.reward {
+	background-image: url(/assets/reward.png);
+}
+
+.rewardBtnContainer {
+	padding-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+}
+
+.rowLagu {
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0;
+}
+
+.btnLagu {
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.btnLagu1 {
+	background-image: url(/assets/btnLagu1.png);
+	width: 285px;
+	height: 90px;
+}
+
+.btnLagu2 {
+	background-image: url(/assets/btnLagu2.png);
+	width: 278px;
+	height: 90px;
+}
+
+.btnLagu3 {
+	background-image: url(/assets/btnLagu3.png);
+	width: 270px;
+	height: 80px;
+	align-self: flex-end;
+}
+
+.btnLagu4 {
+	background-image: url(/assets/btnLagu4.png);
+	width: 260px;
+	height: 90px;
+}
+
+.btnLagu5 {
+	background-image: url(/assets/btnLagu5.svg);
+	width: 265px;
+	height: 80px;
+	align-self: flex-end;
+}
+
+.btnLagu6 {
+	background-image: url(/assets/btnLagu6.png);
+	width: 285px;
+	height: 90px;
+}
+
+.btnLagu7 {
+	margin-top: 6px;
+	background-image: url(/assets/btnLagu7.png);
+	width: 265px;
+	height: 90px;
+}
+
+.btnStop {
+	background-image: url(/assets/btnStopLagu.png);
+	margin-top: 16px;
+	width: 70px;
+	height: 70px;
+}
+
+.stopWrapper {
+	width: 280px;
+	display: flex;
+	justify-content: center;
+}

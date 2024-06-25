@@ -1,0 +1,6 @@
+.tentang {
+	background-image: url("/assets/tentanggame.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

@@ -1,8 +1,5 @@
 :root {
 	--background: rgb(245, 245, 245);
-	--orange: #ff9500;
-	--pink: #ff00b7;
-	--yellow: #f2ff00;
 }
 
 button {
@@ -12,4 +9,22 @@ button {
 
 body {
 	background-color: var(--background);
+}
+
+section {
+	height: 100%;
+	width: 100%;
+}
+
+.gameContainer h2,
+.gameContainer div > p,
+.gameContainer footer > p {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0;
+}
+
+.gameContainer a {
+	font-size: 0 !important;
 }
