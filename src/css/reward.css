@@ -68,11 +68,10 @@
 	height: 90px;
 }
 
-.btnStop {
-	background-image: url(/assets/btnStopLagu.png);
-	margin-top: 16px;
-	width: 70px;
-	height: 70px;
+.btnLagu8 {
+	background-image: url(/assets/btnLagu8.png);
+	width: 260px;
+	height: 95px;
 }
 
 .stopWrapper {

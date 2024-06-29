@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import "../css/pilih.css";
+import { useAppDispatch } from "../redux/hooks";
+import { reset } from "../redux/reducers/status";
 
 export default function Pilih() {
+	const dispatch = useAppDispatch();
+	dispatch(reset());
 	return (
 		<section className="pilih">
 			<div className="pilihBtnContainer">
@@ -17,7 +21,10 @@ export default function Pilih() {
 					</Link>
 					<Link to="/">
 						Kembali
-						<img src="/assets/btnKembali.png" className="btnKembali kembaliPilih" />
+						<img
+							src="/assets/btnKembali.png"
+							className="btnKembali kembaliPilih"
+						/>
 					</Link>
 				</div>
 			</div>

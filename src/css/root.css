@@ -17,7 +17,7 @@ section {
 }
 
 .gameContainer h2,
-.gameContainer div > p,
+.gameContainer > section > div > p,
 .gameContainer footer > p {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -27,4 +27,8 @@ section {
 
 .gameContainer a {
 	font-size: 0 !important;
+}
+
+pre {
+	font-family: initial;
 }

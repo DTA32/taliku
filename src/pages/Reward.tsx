@@ -34,9 +34,9 @@ export default function Reward() {
 					<button className="btnLagu btnLagu7">
 						Bangun Pemuda-Pemudi <br /> Lagu Nasional Indonesia
 					</button>
-					<div className="stopWrapper">
-						<button className="btnLagu btnStop">Stop</button>
-					</div>
+					<button className="btnLagu btnLagu8">
+						What Makes <br /> Your Beautiful
+					</button>
 				</div>
 			</div>
 		</section>

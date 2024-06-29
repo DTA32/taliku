@@ -8,12 +8,14 @@ export default function MainMenu() {
 				<Link to="/pilih" className="btnMain">
 					MAIN
 				</Link>
-				<Link to="/caramain" className="btnCaraMain">
-					CARA MAIN
-				</Link>
-				<Link to="/tentang" className="btnTentang">
-					Tentang Game
-				</Link>
+				<div className="menuBtnBottomContainer">
+					<Link to="/caramain" className="btnCaraMain">
+						CARA MAIN
+					</Link>
+					<Link to="/tentang" className="btnTentang">
+						Tentang Game
+					</Link>
+				</div>
 			</div>
 		</section>
 	);

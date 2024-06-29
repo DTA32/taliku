@@ -1,0 +1,66 @@
+.gamecore {
+	display: flex;
+	flex-direction: column;
+}
+.bubbleChat {
+	position: relative;
+	background-color: white;
+	border: 3px solid #0494dc;
+	padding: 8px 16px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.inputContainer {
+	position: absolute;
+	left: 2%;
+	bottom: 8px;
+	width: 96%;
+	padding: 5px 0px;
+	border: 3px solid #1daadd;
+	background-color: #f2f2f2;
+	border-radius: 8px;
+	display: flex;
+	gap: 16px;
+}
+.jawabanWrapper {
+	margin: 0px 8px;
+	flex-grow: 1;
+}
+.jawabanField {
+	width: 100%;
+	padding: 4px;
+	font-size: 13px;
+	background-color: #f2f2f2;
+	border: 2px solid #d3d3d3;
+}
+.submitBtn {
+	font-size: 0 !important;
+	width: 27px;
+	margin-right: 8px;
+	background-color: #0494dc;
+	border-radius: 99%;
+}
+.tambahSprite {
+	width: 240px;
+}
+.tambahBubbleChat {
+	margin-left: 192px;
+	margin-bottom: 0px;
+}
+.kurangSprite {
+	padding-left: 18px;
+	width: 240px;
+}
+.kurangBubbleChat {
+	margin-left: 230px;
+	margin-bottom: 0px;
+}
+.kaliSprite {
+	width: 180px;
+}
+.kaliBubbleChat {
+	margin-top: 64px;
+	margin-left: 96px;
+	margin-bottom: 8px;
+}

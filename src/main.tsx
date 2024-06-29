@@ -11,8 +11,10 @@ import "./css/root.css";
 import Pilih from "./pages/Pilih";
 import CaraMain from "./pages/CaraMain";
 import TentangGame from "./pages/TentangGame";
-import Game from "./pages/Game";
 import Reward from "./pages/Reward";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
+import GameMid from "./components/GameMid";
 
 const router = createBrowserRouter([
 	{
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
 			{ path: "/pilih", element: <Pilih /> },
 			{ path: "/caramain", element: <CaraMain /> },
 			{ path: "/tentang", element: <TentangGame /> },
-			{ path: "/main", element: <Game /> },
+			{ path: "/main", element: <GameMid /> },
 			{ path: "/reward", element: <Reward /> },
 		],
 	},
@@ -32,6 +34,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<Provider store={store}>
+			<RouterProvider router={router} />
+		</Provider>
 	</React.StrictMode>
 );
