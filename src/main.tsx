@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ReactDOM from "react-dom/client";
 import {
 	createBrowserRouter,
@@ -15,6 +15,7 @@ import Reward from "./pages/Reward";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import GameMid from "./components/GameMid";
+import BackgroundMusic from "./components/BackgroundMusic";
 
 const router = createBrowserRouter([
 	{
@@ -33,9 +34,10 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-	<React.StrictMode>
-		<Provider store={store}>
-			<RouterProvider router={router} />
-		</Provider>
-	</React.StrictMode>
+	// <React.StrictMode>
+	<Provider store={store}>
+		<RouterProvider router={router} />
+		<BackgroundMusic />
+	</Provider>
+	// </React.StrictMode>
 );

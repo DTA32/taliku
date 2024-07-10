@@ -23,6 +23,10 @@
 	margin: 16px 0;
 }
 
+.returnLink {
+	margin-top: 8px;
+}
+
 /* below belongs to game container */
 .btnKembali {
 	height: 80px;

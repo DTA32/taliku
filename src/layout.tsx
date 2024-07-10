@@ -11,6 +11,7 @@ export default function Layout() {
 		status > StatusEnum.RESULT_ANNOUNCE ? (
 			<Link
 				to="/"
+				className="returnLink"
 				onClick={() => {
 					dispatch(reset());
 				}}
@@ -22,7 +23,13 @@ export default function Layout() {
 		);
 	return (
 		<main className="container">
-			<Link to="/" className="titleLink">
+			<Link
+				to="/"
+				className="titleLink"
+				onClick={() => {
+					dispatch(reset());
+				}}
+			>
 				<h1 className="title">Taliku</h1>
 			</Link>
 			<div className="gameContainer">
@@ -31,10 +38,7 @@ export default function Layout() {
 			{returnLink}
 			<p className="description">
 				2013 game made on Scratch 1.4 now ported to React,{" "}
-				<a
-					href="https://github.com/DTA32/taliku/blob/master/README.md"
-					target="_blank"
-				>
+				<a href="https://www.dta32.my.id/blog/about-taliku" target="_blank">
 					more info
 				</a>
 			</p>

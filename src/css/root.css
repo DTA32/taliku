@@ -1,5 +1,5 @@
 :root {
-	--background: rgb(245, 245, 245);
+	--background: hsl(180, 100%, 97%);
 }
 
 button {
@@ -31,4 +31,5 @@ section {
 
 pre {
 	font-family: initial;
+	white-space: pre-wrap;
 }

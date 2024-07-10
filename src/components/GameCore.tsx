@@ -136,7 +136,6 @@ export default function GameCore({ tipe }: { tipe: string }) {
 						viewBox="0 0 512 512"
 						xmlns="http://www.w3.org/2000/svg"
 					>
-						<title>ionicons-v5-e</title>
 						<polyline
 							points="416 128 192 384 96 288"
 							style={{
@@ -148,6 +147,7 @@ export default function GameCore({ tipe }: { tipe: string }) {
 							}}
 						/>
 					</svg>
+					Submit
 				</button>
 			</div>
 		</div>
