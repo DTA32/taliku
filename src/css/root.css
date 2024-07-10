@@ -1,0 +1,35 @@
+:root {
+	--background: hsl(180, 100%, 97%);
+}
+
+button {
+	all: unset;
+	text-align: center;
+}
+
+body {
+	background-color: var(--background);
+}
+
+section {
+	height: 100%;
+	width: 100%;
+}
+
+.gameContainer h2,
+.gameContainer > section > div > p,
+.gameContainer footer > p {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0;
+}
+
+.gameContainer a {
+	font-size: 0 !important;
+}
+
+pre {
+	font-family: initial;
+	white-space: pre-wrap;
+}

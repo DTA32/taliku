@@ -1,0 +1,6 @@
+.caramain {
+	background-image: url("/assets/caramain.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

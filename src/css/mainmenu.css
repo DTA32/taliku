@@ -1,0 +1,39 @@
+.home {
+	background-image: url(/assets/mainmenu.png);
+	background-size: cover;
+}
+
+.menuBtnContainer {
+	padding-top: 43%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+
+.menuBtnBottomContainer {
+	display: flex;
+	gap: 20px;
+}
+
+.btnMain {
+	background-image: url(/assets/btnMain.png);
+	background-size: cover;
+	margin-right: 12px;
+	width: 200px;
+	height: 80px;
+}
+
+.btnCaraMain {
+	background-image: url(/assets/btnCaraMain.png);
+	background-size: cover;
+	width: 250px;
+	height: 80px;
+}
+
+.btnTentang {
+	background-image: url(/assets/btnTentang.png);
+	background-size: cover;
+	width: 280px;
+	height: 80px;
+}
